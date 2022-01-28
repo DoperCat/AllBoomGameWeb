@@ -11290,7 +11290,7 @@ header {
 }
 
 .nav-link:hover {
-  color: #F5D237 !important;
+  color: #BE4B05 !important;
 }
 
 .nav-link1 {
@@ -11328,7 +11328,7 @@ body {
   background: #0F3255;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  border-top: 4px solid #F0820F;
+  border-top: 4px solid #28f5ff;
   bottom: 25px;
   left: 70px;
 }
@@ -11338,8 +11338,8 @@ body {
   padding-right: 40px;
   padding-bottom: 12px;
   padding-top: 12px;
-  background-color: #B9320F;
-  color: #ffffff;
+  background-color: #F0820F;
+  color: white;
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 10px;
@@ -11374,17 +11374,12 @@ body {
   height: 435px;
   padding-top: 25%;
   position: relative;
-  right: 200px;
   top: 20px;
+  right: 200px;
   background: #9BC3DC;
   box-shadow: 12px 12px 28px #050505;
   border-radius: 20px;
-}
-
-#fondo {
   z-index: -1;
-  position: absolute;
-  left: 470px;
 }
 
 .finish-square {
@@ -11419,7 +11414,7 @@ body {
   margin-bottom: 100px;
   font-family: "Milliard", sans-serif;
   font-weight: 700;
-  color: #BE4B05;
+  color: #0F3255;
 }
 
 .video {
@@ -11436,50 +11431,43 @@ body {
   padding-top: 25%;
   position: relative;
   left: 50px;
-  background: #ffff;
+  background: #9BC3DC;
   box-shadow: 12px 12px 28px #050505;
   margin-bottom: 60px;
-}
-
-.inside-square1 {
-  width: 1165px;
-  height: 407px;
-  padding-top: 25%;
-  position: relative;
-  bottom: 200px;
-  left: 18px;
-  background: #F5D237;
+  border-radius: 20px;
 }
 
 .finish-square1 {
-  width: 1127px;
-  height: 365px;
+  width: 1133px;
+  height: 375px;
   padding-top: 25%;
   position: relative;
-  bottom: 280px;
-  left: 18px;
-  background: #BE4B05;
+  bottom: 295px;
+  left: 32px;
+  background: #0F3255;
+  border-radius: 20px;
 }
 
 .text-square1 {
-  width: 1118px;
-  height: 355px;
+  width: 1123px;
+  height: 365px;
   padding-top: 25%;
   position: relative;
-  bottom: 287px;
+  bottom: 295px;
   left: 4px;
-  background: #F5D237;
+  background: #9BC3DC;
+  border-radius: 20px;
 }
 
 .isallboom1 {
   position: relative;
-  bottom: 550px;
+  bottom: 570px;
   left: 30px;
   margin-left: 500px;
   margin-right: 50px;
   font-family: "Milliard", sans-serif;
   font-weight: 700;
-  color: #BE4B05;
+  color: #0F3255;
 }
 
 .team {
@@ -11491,23 +11479,61 @@ body {
 }
 
 h2, .h2 {
-  background-color: #F0AA0F;
+  background-color: #28f5ff;
   color: #0F3255;
   text-align: center;
   position: relative;
-  left: 100px;
+  left: 95px;
   padding-bottom: 12px;
   padding-top: 12px;
-  padding-left: 500px;
-  padding-right: 600px;
+  border-radius: 20px;
+  font-family: "Russo One", sans-serif;
+  font-weight: 700;
+  height: 50px;
+  width: 1100px;
+}
+
+.first-square2 {
+  width: 1100px;
+  height: 600px;
+  padding-top: 25%;
+  position: relative;
+  left: 100px;
+  background: #9BC3DC;
+  box-shadow: 12px 12px 28px #050505;
+  margin-bottom: 60px;
+  border-radius: 20px;
+}
+
+.finish-square2 {
+  width: 1033px;
+  height: 550px;
+  padding-top: 25%;
+  position: relative;
+  bottom: 295px;
+  left: 32px;
+  background: #0F3255;
+  border-radius: 20px;
+}
+
+.text-square2 {
+  width: 1023px;
+  height: 540px;
+  padding-top: 25%;
+  position: relative;
+  bottom: 271px;
+  left: 4px;
+  background: #9BC3DC;
+  border-radius: 20px;
 }
 
 .contact-square {
-  background-color: #c5ceec;
+  background-color: rgba(197, 206, 236, 0);
   height: 450px;
   width: 350px;
   position: relative;
-  left: 100px;
+  bottom: 600px;
+  border-radius: 20px;
 }
 
 .contact-text {
@@ -11515,15 +11541,16 @@ h2, .h2 {
 }
 
 .map-square {
-  height: 550px;
   position: relative;
-  top: 70px;
-  right: 380px;
+  bottom: 180px;
+  left: 420px;
 }
 
 .enque {
   position: relative;
   top: 75px;
+  font-family: "Russo One", sans-serif;
+  font-weight: 700;
 }
 
 .simcont {
@@ -11564,6 +11591,241 @@ h3, .h3 {
   font-weight: 700;
 }
 
+.first-aviso {
+  width: 1200px;
+  height: 5800px;
+  padding-top: 25%;
+  position: relative;
+  left: 50px;
+  background: #9BC3DC;
+  box-shadow: 12px 12px 28px #050505;
+  margin-bottom: 60px;
+  border-radius: 20px;
+}
+
+.finish-aviso {
+  width: 1133px;
+  height: 5728px;
+  padding-top: 25%;
+  position: relative;
+  bottom: 295px;
+  left: 32px;
+  background: #0F3255;
+  border-radius: 20px;
+}
+
+.text-aviso {
+  width: 1123px;
+  height: 5718px;
+  padding-top: 25%;
+  position: relative;
+  bottom: 295px;
+  left: 4px;
+  background: #9BC3DC;
+  border-radius: 20px;
+}
+
+.aviso {
+  position: relative;
+  bottom: 250px;
+  font-family: "Milliard", sans-serif;
+  font-weight: 700;
+  color: #0F3255;
+}
+
+.aviso-legal {
+  position: relative;
+  left: 50px;
+}
+
+.first-cookies {
+  width: 1200px;
+  height: 1610px;
+  padding-top: 25%;
+  position: relative;
+  left: 50px;
+  background: #9BC3DC;
+  box-shadow: 12px 12px 28px #050505;
+  margin-bottom: 60px;
+  border-radius: 20px;
+}
+
+.finish-cookies {
+  width: 1133px;
+  height: 1540px;
+  padding-top: 25%;
+  position: relative;
+  bottom: 295px;
+  left: 32px;
+  background: #0F3255;
+  border-radius: 20px;
+}
+
+.text-cookies {
+  width: 1123px;
+  height: 1528px;
+  padding-top: 25%;
+  position: relative;
+  bottom: 295px;
+  left: 4px;
+  background: #9BC3DC;
+  border-radius: 20px;
+}
+
+.cookies {
+  position: relative;
+  bottom: 250px;
+  font-family: "Milliard", sans-serif;
+  font-weight: 700;
+  color: #0F3255;
+}
+
+.politica-cookies {
+  position: relative;
+  left: 50px;
+}
+
+.first-registro {
+  width: 1200px;
+  height: 1320px;
+  padding-top: 25%;
+  position: relative;
+  left: 50px;
+  background: #9BC3DC;
+  box-shadow: 12px 12px 28px #050505;
+  margin-bottom: 60px;
+  border-radius: 20px;
+}
+
+.finish-registro {
+  width: 1133px;
+  height: 1245px;
+  padding-top: 25%;
+  position: relative;
+  bottom: 295px;
+  left: 32px;
+  background: #0F3255;
+  border-radius: 20px;
+}
+
+.text-registro {
+  width: 1123px;
+  height: 1232px;
+  padding-top: 25%;
+  position: relative;
+  bottom: 295px;
+  left: 4px;
+  background: #9BC3DC;
+  border-radius: 20px;
+}
+
+.registro {
+  position: relative;
+  bottom: 250px;
+  font-family: "Milliard", sans-serif;
+  font-weight: 700;
+  color: #0F3255;
+}
+
+.condiciones-registro {
+  position: relative;
+  left: 50px;
+}
+
+.first-politica {
+  width: 1200px;
+  height: 3650px;
+  padding-top: 25%;
+  position: relative;
+  left: 50px;
+  background: #9BC3DC;
+  box-shadow: 12px 12px 28px #050505;
+  margin-bottom: 60px;
+  border-radius: 20px;
+}
+
+.finish-politica {
+  width: 1133px;
+  height: 3570px;
+  padding-top: 25%;
+  position: relative;
+  bottom: 295px;
+  left: 32px;
+  background: #0F3255;
+  border-radius: 20px;
+}
+
+.text-politica {
+  width: 1123px;
+  height: 3560px;
+  padding-top: 25%;
+  position: relative;
+  bottom: 295px;
+  left: 4px;
+  background: #9BC3DC;
+  border-radius: 20px;
+}
+
+.politica {
+  position: relative;
+  bottom: 250px;
+  font-family: "Milliard", sans-serif;
+  font-weight: 700;
+  color: #0F3255;
+}
+
+.politica-privacidad {
+  position: relative;
+  left: 50px;
+}
+
+.first-condiciones {
+  width: 1200px;
+  height: 3720px;
+  padding-top: 25%;
+  position: relative;
+  left: 50px;
+  background: #9BC3DC;
+  box-shadow: 12px 12px 28px #050505;
+  margin-bottom: 60px;
+  border-radius: 20px;
+}
+
+.finish-condiciones {
+  width: 1133px;
+  height: 3640px;
+  padding-top: 25%;
+  position: relative;
+  bottom: 295px;
+  left: 32px;
+  background: #0F3255;
+  border-radius: 20px;
+}
+
+.text-condiciones {
+  width: 1123px;
+  height: 3630px;
+  padding-top: 25%;
+  position: relative;
+  bottom: 295px;
+  left: 4px;
+  background: #9BC3DC;
+  border-radius: 20px;
+}
+
+.condiciones {
+  position: relative;
+  bottom: 250px;
+  font-family: "Milliard", sans-serif;
+  font-weight: 700;
+  color: #0F3255;
+}
+
+.condiciones-servicio {
+  position: relative;
+  left: 50px;
+}
+
 footer {
   background-color: #0F3255;
   position: relative;
@@ -11579,7 +11841,7 @@ a {
 
 .container {
   font-size: 12px;
-  color: #28f5ff;
+  color: #ffff;
 }
 
 .container- {
@@ -11605,7 +11867,7 @@ a {
 
 .hr {
   height: 3px;
-  background-color: #F0820F;
+  background-color: #28f5ff;
   margin-bottom: 50px;
   position: relative;
   top: 30px;

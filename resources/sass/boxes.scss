@@ -1,13 +1,13 @@
 ///////////////////////////////////Diseño de header/////////////////////////////////////////////////////////////
 
-header { 
+header {
     background-color: $high-con;
     font-family: $fuente;
 }
 
 
 .nav-link:hover {
-    color: $value2!important;
+    color: $value-2!important;
 }
 
 .nav-link1 {
@@ -50,7 +50,7 @@ body {
     background: $high-con;
     border-bottom-left-radius: $border-radius;
     border-bottom-right-radius: $border-radius;
-    border-top: 4px solid $main-value;
+    border-top: 4px solid $main;
     bottom: 25px;
     left: 70px;
   }
@@ -60,11 +60,11 @@ body {
     padding-right: $padding-rl;
     padding-bottom: $padding-tb;
     padding-top: $padding-tb;
-    background-color: $error; 
-    color: #ffffff; 
-    text-decoration: none; 
-    text-transform: uppercase; 
-    border-radius: 10px; 
+    background-color: $main-value;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
     position: relative;
     bottom: 50px;
 	left: 50px;
@@ -98,18 +98,14 @@ body {
     height: 435px;
     padding-top: 25%;
     position: relative;
-    right: 200px;
     top: 20px;
+    right: 200px;
     background: $low-con;
     box-shadow: $sombras;
     border-radius: $border-radius;
+    z-index: -1;
 }
 
-#fondo {
-    z-index: -1;
-    position: absolute;
-    left: 470px;
-}
 
 .finish-square {
     width: 950px;
@@ -134,7 +130,7 @@ body {
 
 }
 
-.isallboom { 
+.isallboom {
     position: relative;
     bottom: 315px;
     left: 80px;
@@ -144,7 +140,7 @@ body {
     margin-bottom: 100px;
     font-family: $fuente;
     font-weight: $font-weight;
-    color: $value-2;
+    color: $high-con;
 }
 
 
@@ -166,51 +162,45 @@ body {
     padding-top: 25%;
     position: relative;
     left: 50px;
-    background: $normal;
+    background: $low-con;
     box-shadow: $sombras;
     margin-bottom: 60px;
-}
-
-.inside-square1 {
-    width: 1165px;
-    height: 407px;
-    padding-top: 25%;
-    position: relative;
-    bottom: 200px;
-    left: 18px;
-    background: $value2;
+    border-radius: $border-radius;
 }
 
 .finish-square1 {
-    width: 1127px;
-    height: 365px;
+    width: 1133px;
+    height: 375px;
     padding-top: 25%;
     position: relative;
-    bottom: 280px;
-    left: 18px;
-    background: $value-2;
+    bottom: 295px;
+    left: 32px;
+    background: $high-con;
+    border-radius: $border-radius;
+
 }
 
 .text-square1 {
-    width: 1118px;
-    height: 355px;
+    width: 1123px;
+    height: 365px;
     padding-top: 25%;
     position: relative;
-    bottom: 287px;
+    bottom: 295px;
     left: 4px;
-    background: $value2;
+    background: $low-con;
+    border-radius: $border-radius;
 
 }
 
-.isallboom1 { 
+.isallboom1 {
     position: relative;
-    bottom: 550px;
+    bottom: 570px;
     left: 30px;
     margin-left: 500px;
     margin-right: 50px;
     font-family: $fuente;
     font-weight: $font-weight;
-    color: $value-2;
+    color: $high-con;
 }
 
 .team {
@@ -224,23 +214,62 @@ body {
 //Cuadrado de contacto
 
 h2 {
-    background-color: $value1;
+    background-color: $main;
     color: $high-con;
     text-align: center;
     position: relative;
-    left: 100px;
+    left: 95px;
     padding-bottom: $padding-tb;
     padding-top: $padding-tb;
-    padding-left: 500px;
-    padding-right: 600px;
+    border-radius: $border-radius;
+    font-family: 'Russo One', sans-serif;
+    font-weight: $font-weight;
+    height: 50px;
+    width: 1100px;
+}
+.first-square2 {
+    width: 1100px;
+    height: 600px;
+    padding-top: 25%;
+    position: relative;
+    left: 100px;
+    background: $low-con;
+    box-shadow: $sombras;
+    margin-bottom: 60px;
+    border-radius: $border-radius;
 }
 
-.contact-square { 
-    background-color: rgb(197, 206, 236);
+.finish-square2 {
+    width: 1033px;
+    height: 550px;
+    padding-top: 25%;
+    position: relative;
+    bottom: 295px;
+    left: 32px;
+    background: $high-con;
+    border-radius: $border-radius;
+
+}
+
+.text-square2 {
+    width: 1023px;
+    height: 540px;
+    padding-top: 25%;
+    position: relative;
+    bottom: 271px;
+    left: 4px;
+    background: $low-con;
+    border-radius: $border-radius;
+
+}
+
+.contact-square {
+    background-color: rgba(197, 206, 236, 0);
     height: 450px;
     width: 350px;
     position: relative;
-    left: 100px;
+    bottom: 600px;
+    border-radius: $border-radius;
 }
 
 .contact-text {
@@ -248,15 +277,16 @@ h2 {
 }
 
 .map-square {
-    height: 550px;
     position: relative;
-    top: 70px;
-    right: 380px;
+    bottom: 180px;
+    left: 420px;
 }
 
 .enque {
     position: relative;
     top: 75px;
+    font-family: 'Russo One', sans-serif;
+    font-weight: $font-weight;
 }
 
 .simcont {
@@ -298,6 +328,263 @@ h3 {
 
 }
 
+/////////////////////////////////////////Body Terminos y condiciones/////////////////////////////////////////////////////
+
+// Texto de Aviso Legal
+
+.first-aviso {
+    width: 1200px;
+    height: 5800px;
+    padding-top: 25%;
+    position: relative;
+    left: 50px;
+    background: $low-con;
+    box-shadow: $sombras;
+    margin-bottom: 60px;
+    border-radius: $border-radius;
+}
+
+.finish-aviso {
+    width: 1133px;
+    height: 5728px;
+    padding-top: 25%;
+    position: relative;
+    bottom: 295px;
+    left: 32px;
+    background: $high-con;
+    border-radius: $border-radius;
+
+}
+
+.text-aviso {
+    width: 1123px;
+    height: 5718px;
+    padding-top: 25%;
+    position: relative;
+    bottom: 295px;
+    left: 4px;
+    background: $low-con;
+    border-radius: $border-radius;
+
+}
+
+.aviso {
+    position: relative;
+    bottom: 250px;
+    font-family: $fuente;
+    font-weight: $font-weight;
+    color: $high-con;
+}
+
+.aviso-legal {
+    position: relative;
+    left: 50px;
+}
+
+// Texto de Cookies
+
+.first-cookies {
+    width: 1200px;
+    height: 1610px;
+    padding-top: 25%;
+    position: relative;
+    left: 50px;
+    background: $low-con;
+    box-shadow: $sombras;
+    margin-bottom: 60px;
+    border-radius: $border-radius;
+}
+
+.finish-cookies {
+    width: 1133px;
+    height: 1540px;
+    padding-top: 25%;
+    position: relative;
+    bottom: 295px;
+    left: 32px;
+    background: $high-con;
+    border-radius: $border-radius;
+
+}
+
+.text-cookies {
+    width: 1123px;
+    height: 1528px;
+    padding-top: 25%;
+    position: relative;
+    bottom: 295px;
+    left: 4px;
+    background: $low-con;
+    border-radius: $border-radius;
+
+}
+
+.cookies {
+    position: relative;
+    bottom: 250px;
+    font-family: $fuente;
+    font-weight: $font-weight;
+    color: $high-con;
+}
+
+.politica-cookies {
+    position: relative;
+    left: 50px;
+}
+
+// Condiciones Generales de registro
+
+.first-registro {
+    width: 1200px;
+    height: 1320px;
+    padding-top: 25%;
+    position: relative;
+    left: 50px;
+    background: $low-con;
+    box-shadow: $sombras;
+    margin-bottom: 60px;
+    border-radius: $border-radius;
+}
+
+.finish-registro {
+    width: 1133px;
+    height: 1245px;
+    padding-top: 25%;
+    position: relative;
+    bottom: 295px;
+    left: 32px;
+    background: $high-con;
+    border-radius: $border-radius;
+
+}
+
+.text-registro {
+    width: 1123px;
+    height: 1232px;
+    padding-top: 25%;
+    position: relative;
+    bottom: 295px;
+    left: 4px;
+    background: $low-con;
+    border-radius: $border-radius;
+
+}
+
+.registro {
+    position: relative;
+    bottom: 250px;
+    font-family: $fuente;
+    font-weight: $font-weight;
+    color: $high-con;
+}
+
+.condiciones-registro {
+    position: relative;
+    left: 50px;
+}
+
+// Politica de privacidad
+
+.first-politica {
+    width: 1200px;
+    height: 3650px;
+    padding-top: 25%;
+    position: relative;
+    left: 50px;
+    background: $low-con;
+    box-shadow: $sombras;
+    margin-bottom: 60px;
+    border-radius: $border-radius;
+}
+
+.finish-politica {
+    width: 1133px;
+    height: 3570px;
+    padding-top: 25%;
+    position: relative;
+    bottom: 295px;
+    left: 32px;
+    background: $high-con;
+    border-radius: $border-radius;
+
+}
+
+.text-politica {
+    width: 1123px;
+    height: 3560px;
+    padding-top: 25%;
+    position: relative;
+    bottom: 295px;
+    left: 4px;
+    background: $low-con;
+    border-radius: $border-radius;
+
+}
+
+.politica {
+    position: relative;
+    bottom: 250px;
+    font-family: $fuente;
+    font-weight: $font-weight;
+    color: $high-con;
+}
+
+.politica-privacidad {
+    position: relative;
+    left: 50px;
+}
+
+// Condiciones del servicio
+
+.first-condiciones {
+    width: 1200px;
+    height: 3720px;
+    padding-top: 25%;
+    position: relative;
+    left: 50px;
+    background: $low-con;
+    box-shadow: $sombras;
+    margin-bottom: 60px;
+    border-radius: $border-radius;
+}
+
+.finish-condiciones {
+    width: 1133px;
+    height: 3640px;
+    padding-top: 25%;
+    position: relative;
+    bottom: 295px;
+    left: 32px;
+    background: $high-con;
+    border-radius: $border-radius;
+
+}
+
+.text-condiciones {
+    width: 1123px;
+    height: 3630px;
+    padding-top: 25%;
+    position: relative;
+    bottom: 295px;
+    left: 4px;
+    background: $low-con;
+    border-radius: $border-radius;
+
+}
+
+.condiciones {
+    position: relative;
+    bottom: 250px;
+    font-family: $fuente;
+    font-weight: $font-weight;
+    color: $high-con;
+}
+
+.condiciones-servicio {
+    position: relative;
+    left: 50px;
+}
+
 /////////////////////////////////////////Diseño del Footer./////////////////////////////////////////////////////////////
 
 footer {
@@ -315,7 +602,7 @@ a {
 
 .container {
     font-size: 12px;
-    color: $main;
+    color: $normal;
 }
 
 .container- {
@@ -326,10 +613,10 @@ a {
 }
 
 #downloads {
-    height: $img-dow;  
+    height: $img-dow;
 }
 
-.google {   
+.google {
     position: relative;
     left: 594px;
 }
@@ -341,7 +628,7 @@ a {
 
 .hr {
     height: 3px;
-    background-color: $main-value;
+    background-color: $main;
     margin-bottom: 50px;
     position: relative;
     top: 30px;

@@ -4,6 +4,4 @@
 
 @yield('content')
 
-{{-- @include ('layouts/bodyhome') <!-- Agrega body extraido de Layouts --> --}}
-
 @include('components/footer') <!-- Agrega footer extraido de Layouts -->

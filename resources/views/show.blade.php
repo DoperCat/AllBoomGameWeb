@@ -1,8 +1,9 @@
-@include('layouts/head') <!-- Agrega head extraido de Layouts -->
+@extends('layouts/layout')
 
-@include('layouts/header') <!-- Agrega header extraido de Layouts -->
+@section('title', 'home')
+    
+@section('content')
 
-@include('layouts/bodyhome') <!-- Agrega body extraido de Layouts -->
+@include('components/services')
 
-
-@include('layouts/footer') <!-- Agrega footer extraido de Layouts -->
+@endsection
