@@ -5,15 +5,15 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-4">
+        <div class="col-xs-4 col-sm-4 col-md-4">
             <div class="play">
                 <a class="boton" href="http://laweb.com" target="_blank">JUGAR</a>
                 <p class="descarga">Descargate nuestro juego <br> en Google Play <br> o en la App Store</p>
-                <a class="bot1-game" href=""><img id="downloads" src="img/google-play.png"></a>
-                <a class="bot2-game" href=""><img id="downloads" src="img/apple-store.png"></a>
+                <a class="bot1-game" href=""><img id="downloads" src="img/GooglePlay.png"></a>
+                <a class="bot2-game" href=""><img id="downloads" src="img/AppStore.png"></a>
             </div>
         </div>
-        <div class="col-8">
+        <div class="col-xs-8 col-sm-8 col-md-8">
                 <div class="first-square" id="fondo">
                     <div class="finish-square">
                         <div class="text-square">
@@ -39,14 +39,14 @@
         <iframe class="video"  src="https://www.youtube.com/embed/d9yQsMDLBsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="row">
-        <div class="col-12">
-             <div class="first-square1" id="us">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+             <div class="first-square1" >
                     <div class="finish-square1">
-                        <div class="text-square1">
+                        <div class="text-square1" id="whoius">
                             <img class="team" src="img/empresas-1.jpg" alt="">
                             <div class="isallboom1">
-                                <h3>¿Quienes Somos?</h3>
-                                <p>A.I Amoka se formó a principios del 2021 con el objetivo de producir videojuegos de calidad 
+                                <h3>¿QUIENES SOMOS?</h3>
+                                <p >A.I Amoka se formó a principios del 2021 con el objetivo de producir videojuegos de calidad 
                                    para que los consumidores pudieran descargar gratuitamente en sus teléfonos móviles. 
                                 <br> <br> <b>AllBoomGame es nuestro juego debut en estas plataformas. </b>
                                 <br> <br>
@@ -65,13 +65,13 @@
         </div>
     </div> 
     <div class="row">
-        <div class="col-12">
+        <div class="col-xs-12 col-sm-12 col-md-12">
              <div class="first-square1" id="us">
                     <div class="finish-square1">
                         <div class="text-square1">
                             <img class="team" src="img/barcelona.jpg" alt="">
                             <div class="isallboom1">
-                                <h3>Nuestro estudio</h3>
+                                <h3>NUESTRO ESTUDIO</h3>
                                 <p>La mayor parte de nuestro desarrollo de juegos se lleva a cabo en la oficina de Barcelona.  
                                 <br> <br> <b>Barcelona, ciudad inteligente</b>
                                 <br> <br>
@@ -91,19 +91,19 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-12">
+        <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="contact" id="contact">
-                <h2>CONTACTO</h2>
+                <h2 >CONTACTO</h2>
             </div>
         </div>
-        <div class="col-12">
+        <div class="col-xs-12 col-sm-12 col-md-12" >
                 <div class="first-square2" id="us">
-                    <div class="finish-square2">
-                        <div class="text-square2">
-                            <iframe class="map-square" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.0116497712006!2d2.167125515426719!3d41.41726577926147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2cb8b5ff553%3A0xa6151b26113d8356!2sC.%20Bruselas%2C%2022%2C%2008041%20Barcelona!5e0!3m2!1ses!2ses!4v1642768574489!5m2!1ses!2ses" width="560" height="400" ></iframe>
+                    <div class="finish-square2" >
+                        <div class="text-square2" >
+                            <iframe class="map-square" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.0116497712006!2d2.167125515426719!3d41.41726577926147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2cb8b5ff553%3A0xa6151b26113d8356!2sC.%20Bruselas%2C%2022%2C%2008041%20Barcelona!5e0!3m2!1ses!2ses!4v1642768574489!5m2!1ses!2ses" width="650" height="500" ></iframe>
                             <div class="contact-square">
                                 <div class="contact-text">
-                                    <div class="enque">
+                                    <div class="enque" >
                                     <p>¿EN QUÉ PODEMOS AYUDARTE?</p>
                                     <p>A.I. Amoka</p>
                                     </div>

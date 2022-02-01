@@ -26,7 +26,7 @@ header {
 /////////////////////////////////////////Diseño del Body////////////////////////////////////////////////////////////
 
 body {
-    background-color: blue;
+    background-image: url('../../public/img/ground2.png');
     font-family: $fuente;
 }
 
@@ -60,8 +60,8 @@ body {
     padding-right: $padding-rl;
     padding-bottom: $padding-tb;
     padding-top: $padding-tb;
-    background-color: $main-value;
-    color: white;
+    background-color: $high-inverse;
+    color: $high-con!important;
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 10px;
@@ -147,7 +147,7 @@ body {
 // Video de Youtube
 
 .video {
-    width: 1200px;
+    width: 1205px;
     height: 600px;
     position: relative;
     left: 70px;
@@ -157,11 +157,11 @@ body {
 //Segundo recuadro de informacion
 
 .first-square1 {
-    width: 1200px;
+    width: 1185px;
     height: 435px;
     padding-top: 25%;
     position: relative;
-    left: 50px;
+    left: 65px;
     background: $low-con;
     box-shadow: $sombras;
     margin-bottom: 60px;
@@ -174,18 +174,18 @@ body {
     padding-top: 25%;
     position: relative;
     bottom: 295px;
-    left: 32px;
+    left: 28px;
     background: $high-con;
     border-radius: $border-radius;
 
 }
 
 .text-square1 {
-    width: 1123px;
-    height: 365px;
+    width: 1126px;
+    height: 367px;
     padding-top: 25%;
     position: relative;
-    bottom: 295px;
+    bottom: 292px;
     left: 4px;
     background: $low-con;
     border-radius: $border-radius;
@@ -218,21 +218,23 @@ h2 {
     color: $high-con;
     text-align: center;
     position: relative;
-    left: 95px;
+    left: 65px;
     padding-bottom: $padding-tb;
     padding-top: $padding-tb;
     border-radius: $border-radius;
     font-family: 'Russo One', sans-serif;
     font-weight: $font-weight;
     height: 50px;
-    width: 1100px;
+    width: 1185px;
+    margin-top: 180px;
 }
+
 .first-square2 {
-    width: 1100px;
+    width: 1185px;
     height: 600px;
     padding-top: 25%;
     position: relative;
-    left: 100px;
+    left: 65px;
     background: $low-con;
     box-shadow: $sombras;
     margin-bottom: 60px;
@@ -240,11 +242,11 @@ h2 {
 }
 
 .finish-square2 {
-    width: 1033px;
-    height: 550px;
+    width: 1120px;
+    height: 543px;
     padding-top: 25%;
     position: relative;
-    bottom: 295px;
+    bottom: 300px;
     left: 32px;
     background: $high-con;
     border-radius: $border-radius;
@@ -252,11 +254,11 @@ h2 {
 }
 
 .text-square2 {
-    width: 1023px;
-    height: 540px;
+    width: 1112px;
+    height: 535px;
     padding-top: 25%;
     position: relative;
-    bottom: 271px;
+    bottom: 292px;
     left: 4px;
     background: $low-con;
     border-radius: $border-radius;
@@ -268,7 +270,7 @@ h2 {
     height: 450px;
     width: 350px;
     position: relative;
-    bottom: 600px;
+    bottom: 700px;
     border-radius: $border-radius;
 }
 
@@ -278,7 +280,7 @@ h2 {
 
 .map-square {
     position: relative;
-    bottom: 180px;
+    bottom: 265px;
     left: 420px;
 }
 
@@ -371,6 +373,7 @@ h3 {
 .aviso {
     position: relative;
     bottom: 250px;
+    left: 90px;
     font-family: $fuente;
     font-weight: $font-weight;
     color: $high-con;
@@ -378,7 +381,7 @@ h3 {
 
 .aviso-legal {
     position: relative;
-    left: 50px;
+
 }
 
 // Texto de Cookies
@@ -422,6 +425,7 @@ h3 {
 .cookies {
     position: relative;
     bottom: 250px;
+    left: 90px;
     font-family: $fuente;
     font-weight: $font-weight;
     color: $high-con;
@@ -429,7 +433,7 @@ h3 {
 
 .politica-cookies {
     position: relative;
-    left: 50px;
+
 }
 
 // Condiciones Generales de registro
@@ -473,6 +477,7 @@ h3 {
 .registro {
     position: relative;
     bottom: 250px;
+    left: 90px;
     font-family: $fuente;
     font-weight: $font-weight;
     color: $high-con;
@@ -480,7 +485,7 @@ h3 {
 
 .condiciones-registro {
     position: relative;
-    left: 50px;
+
 }
 
 // Politica de privacidad
@@ -524,6 +529,7 @@ h3 {
 .politica {
     position: relative;
     bottom: 250px;
+    left: 90px;
     font-family: $fuente;
     font-weight: $font-weight;
     color: $high-con;
@@ -531,7 +537,7 @@ h3 {
 
 .politica-privacidad {
     position: relative;
-    left: 50px;
+
 }
 
 // Condiciones del servicio
@@ -575,6 +581,7 @@ h3 {
 .condiciones {
     position: relative;
     bottom: 250px;
+    left: 90px;
     font-family: $fuente;
     font-weight: $font-weight;
     color: $high-con;
@@ -582,7 +589,12 @@ h3 {
 
 .condiciones-servicio {
     position: relative;
-    left: 50px;
+
+}
+
+.h3 {
+    position: relative;
+    right: 80px;
 }
 
 /////////////////////////////////////////Diseño del Footer./////////////////////////////////////////////////////////////
@@ -597,12 +609,12 @@ footer {
 
 a {
     text-decoration:none;
-    color: $low-con!important;
+    color: $high-inverse!important;
 }
 
 .container {
     font-size: 12px;
-    color: $normal;
+    color: $high-inverse
 }
 
 .container- {
@@ -654,6 +666,6 @@ a:hover {
 }
 
 
-*{
-      border: solid 1px black;
-}
+//  *{
+//        border: solid 1px black;
+//  }

@@ -11306,7 +11306,7 @@ header {
 }
 
 body {
-  background-color: blue;
+  background-image: url(/images/ground2.png?16b12078e391605571134accef850a13);
   font-family: "Milliard", sans-serif;
 }
 
@@ -11338,8 +11338,8 @@ body {
   padding-right: 40px;
   padding-bottom: 12px;
   padding-top: 12px;
-  background-color: #F0820F;
-  color: white;
+  background-color: #CDE6EB;
+  color: #0F3255 !important;
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 10px;
@@ -11418,7 +11418,7 @@ body {
 }
 
 .video {
-  width: 1200px;
+  width: 1205px;
   height: 600px;
   position: relative;
   left: 70px;
@@ -11426,11 +11426,11 @@ body {
 }
 
 .first-square1 {
-  width: 1200px;
+  width: 1185px;
   height: 435px;
   padding-top: 25%;
   position: relative;
-  left: 50px;
+  left: 65px;
   background: #9BC3DC;
   box-shadow: 12px 12px 28px #050505;
   margin-bottom: 60px;
@@ -11443,17 +11443,17 @@ body {
   padding-top: 25%;
   position: relative;
   bottom: 295px;
-  left: 32px;
+  left: 28px;
   background: #0F3255;
   border-radius: 20px;
 }
 
 .text-square1 {
-  width: 1123px;
-  height: 365px;
+  width: 1126px;
+  height: 367px;
   padding-top: 25%;
   position: relative;
-  bottom: 295px;
+  bottom: 292px;
   left: 4px;
   background: #9BC3DC;
   border-radius: 20px;
@@ -11483,22 +11483,23 @@ h2, .h2 {
   color: #0F3255;
   text-align: center;
   position: relative;
-  left: 95px;
+  left: 65px;
   padding-bottom: 12px;
   padding-top: 12px;
   border-radius: 20px;
   font-family: "Russo One", sans-serif;
   font-weight: 700;
   height: 50px;
-  width: 1100px;
+  width: 1185px;
+  margin-top: 180px;
 }
 
 .first-square2 {
-  width: 1100px;
+  width: 1185px;
   height: 600px;
   padding-top: 25%;
   position: relative;
-  left: 100px;
+  left: 65px;
   background: #9BC3DC;
   box-shadow: 12px 12px 28px #050505;
   margin-bottom: 60px;
@@ -11506,22 +11507,22 @@ h2, .h2 {
 }
 
 .finish-square2 {
-  width: 1033px;
-  height: 550px;
+  width: 1120px;
+  height: 543px;
   padding-top: 25%;
   position: relative;
-  bottom: 295px;
+  bottom: 300px;
   left: 32px;
   background: #0F3255;
   border-radius: 20px;
 }
 
 .text-square2 {
-  width: 1023px;
-  height: 540px;
+  width: 1112px;
+  height: 535px;
   padding-top: 25%;
   position: relative;
-  bottom: 271px;
+  bottom: 292px;
   left: 4px;
   background: #9BC3DC;
   border-radius: 20px;
@@ -11532,7 +11533,7 @@ h2, .h2 {
   height: 450px;
   width: 350px;
   position: relative;
-  bottom: 600px;
+  bottom: 700px;
   border-radius: 20px;
 }
 
@@ -11542,7 +11543,7 @@ h2, .h2 {
 
 .map-square {
   position: relative;
-  bottom: 180px;
+  bottom: 265px;
   left: 420px;
 }
 
@@ -11628,6 +11629,7 @@ h3, .h3 {
 .aviso {
   position: relative;
   bottom: 250px;
+  left: 90px;
   font-family: "Milliard", sans-serif;
   font-weight: 700;
   color: #0F3255;
@@ -11635,7 +11637,6 @@ h3, .h3 {
 
 .aviso-legal {
   position: relative;
-  left: 50px;
 }
 
 .first-cookies {
@@ -11675,6 +11676,7 @@ h3, .h3 {
 .cookies {
   position: relative;
   bottom: 250px;
+  left: 90px;
   font-family: "Milliard", sans-serif;
   font-weight: 700;
   color: #0F3255;
@@ -11682,7 +11684,6 @@ h3, .h3 {
 
 .politica-cookies {
   position: relative;
-  left: 50px;
 }
 
 .first-registro {
@@ -11722,6 +11723,7 @@ h3, .h3 {
 .registro {
   position: relative;
   bottom: 250px;
+  left: 90px;
   font-family: "Milliard", sans-serif;
   font-weight: 700;
   color: #0F3255;
@@ -11729,7 +11731,6 @@ h3, .h3 {
 
 .condiciones-registro {
   position: relative;
-  left: 50px;
 }
 
 .first-politica {
@@ -11769,6 +11770,7 @@ h3, .h3 {
 .politica {
   position: relative;
   bottom: 250px;
+  left: 90px;
   font-family: "Milliard", sans-serif;
   font-weight: 700;
   color: #0F3255;
@@ -11776,7 +11778,6 @@ h3, .h3 {
 
 .politica-privacidad {
   position: relative;
-  left: 50px;
 }
 
 .first-condiciones {
@@ -11816,6 +11817,7 @@ h3, .h3 {
 .condiciones {
   position: relative;
   bottom: 250px;
+  left: 90px;
   font-family: "Milliard", sans-serif;
   font-weight: 700;
   color: #0F3255;
@@ -11823,7 +11825,11 @@ h3, .h3 {
 
 .condiciones-servicio {
   position: relative;
-  left: 50px;
+}
+
+.h3 {
+  position: relative;
+  right: 80px;
 }
 
 footer {
@@ -11836,12 +11842,12 @@ footer {
 
 a {
   text-decoration: none;
-  color: #9BC3DC !important;
+  color: #CDE6EB !important;
 }
 
 .container {
   font-size: 12px;
-  color: #ffff;
+  color: #CDE6EB;
 }
 
 .container- {
@@ -11888,8 +11894,4 @@ a:hover {
 .logo-fin {
   height: 70px;
   margin-left: 100px;
-}
-
-* {
-  border: solid 1px black;
 }
