@@ -29,8 +29,12 @@ class HomeController extends Controller
     }
 
     public function show($object){
+        if($object != "aviso-legal" && $object != "politica-cookies" && $object != "condiciones-registro" && $object != "politica-privacidad" && $object != "condiciones-servicio"){
+            $object = "No_Existe";
+        }
         return view('show', compact('object'));
-    }
+        
+}
 
     
 }
