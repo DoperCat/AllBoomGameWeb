@@ -10,11 +10,11 @@
             <div class="navbar-nav">
             </div>
             <div class="navbar-nav ms-auto">
-              <a class="nav-link whoius" href="/#whoius">¿QUIENES SOMOS?</a>
-              <a class="nav-link contact-head" href="/#contact">CONTACTO</a>
+              <a id="whoius" class="nav-link whoius-head"  href="/#whoius">¿QUIENES SOMOS?</a>
+              <a id="contact" class="nav-link contact-head"  href="/#contact">CONTACTO</a>
               <div class="row m-0">
-                <div class="col-6"><a class="nav-link" href="#">ES</a></div>
-                <div class="col-6"><a class="nav-link" href="#">EN</a></div>
+                <div class="col-6"><a id="ES" class="nav-link" >ES</a></div>
+                <div class="col-6"><a id="EN" class="nav-link" >EN</a></div>
               </div>
             </div>
         </div>

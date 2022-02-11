@@ -5,3 +5,4 @@
 @yield('content')
 
 @include('components/footer') <!-- Agrega footer extraido de Layouts -->
+

@@ -26,7 +26,7 @@
 <!-- Apartado donde esta toda la informacion legal -->
       <div class="row">
             <div class="col-12 col-sm-2 col-md-2">
-                  <a href="/aviso-legal">Aviso Legal</a>
+                  <a href="/aviso-legal" id="aviso">Aviso Legal</a>
             </div>
             <div class="col-12 col-sm-2 col-md-2">
                   <a href="/politica-cookies">Pol&iacute;tica de Cookies</a>
@@ -51,7 +51,8 @@
             </div>
       </div>
 </div>
-
 </footer>
+<!-- Scripts -->
+<script src="{{ asset('js/app.js') }}" defer></script>
 </body>
 </html>
