@@ -47,7 +47,7 @@
                   <p class="all-2022">2022 Allboomgame.com <br> Todos los derechos reservados.</p>
             </div>
             <div class="col-3 pt-3">
-                  <a  href="/"><img class="logo-fin" src="../img/logo.png"></a>
+                  <a  href="/"><img class="logo-fin" src="../img/AllBoom_Logo.png"></a>
             </div>
       </div>
 </div>

@@ -11313,7 +11313,7 @@ header {
 }
 
 body {
-  background-image: url(/images/ground2.png?16b12078e391605571134accef850a13);
+  background-image: url(/images/ground.png?a50108af234ae2238546de35533f4ed4);
   font-family: "Milliard", sans-serif;
 }
 
@@ -11722,13 +11722,13 @@ a:hover {
 }
 
 .logo-in {
-  height: 70px;
+  height: 40px;
 }
 
 .logo-fin {
-  height: 70px;
+  height: 40px;
   position: relative;
-  left: 30%;
+  left: 40%;
 }
 
 .all-2022 {
