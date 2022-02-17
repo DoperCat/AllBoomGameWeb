@@ -11415,8 +11415,8 @@ body {
 }
 
 .video {
-  height: 700px;
-  min-height: 100px;
+  height: 500px;
+  width: 100%;
 }
 
 .first-square1 {

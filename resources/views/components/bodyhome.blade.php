@@ -52,8 +52,20 @@
             </div>
         </div>
     </div>
-     <div class="row">
-        <iframe class="video col-center p-5"  src="https://www.youtube.com/embed/d9yQsMDLBsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="row first-square1 p-4 m-4">
+        <div class="col-12">
+            <div class="row text-square1 p-2">
+                <div class="col-12 col-sm-12 col-md-12">
+                    <div class="row p-0 m-0">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <div class="isallboom1 p-3 m-2">
+                                <iframe class="video" src="https://www.youtube.com/embed/gpFJMn0hB_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
     </div>
     <div class="row first-square1 p-4 m-4">
         <div class="col-12">
@@ -93,9 +105,6 @@
             <div class="row text-square1 p-2">
                 <div class="col-xs-12 col-sm-12 col-md-12">
                     <div class="row">
-                        <div class="col-6">
-                            <img class="img-fluid team" src="img/barcelona.jpg" alt="">
-                        </div>
                         <div class="col-xs-6 col-sm-6 col-md-6">
                             <div class="isallboom1 p-3 m-2">
                                 <h3 id="ourstudio">NUESTRO ESTUDIO</h3>
@@ -112,59 +121,12 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-center">
-            <div class="contact mt-3 pt-5 " id="contact">
-                <h2 id="contactTi">CONTACTO</h2>
-            </div>
-        </div>
-    </div>
-    <div class="row first-square2 p-4 m-4">
-        <div class="col-12">
-            <div class="row text-square2">
-                <div class="col-xs-12 col-sm-12 col-md-12" >                                 
-                    <div class="contact-square">
-                        <div class="contact-text">
-                            <div class="row">
-                                <div class="col-xs-6 col-sm-6 col-md-6">
-                                    <div class="row">
-                                        <div class="col-12 letter pt-5">
-                                            <b><p id="contactcont">¿EN QUÉ PODEMOS AYUDARTE?</p></b>
-                                            <b><p>A.I. Amoka</p></b>
-                                        </div>
-                                        <div class="col-6">
-                                            <img class="simcont" id="calle" src="img/ubi.png" alt="">
-                                        </div>
-                                        <div class="col-6">
-                                            <p class="calle">C. Bruselas, 22, <br>Barcelona(Spain)</p>
-                                        </div>
-                                        <div class="col-6">
-                                            <img class="simcont" id="correo" src="img/correo.png" alt="">
-                                        </div>
-                                        <div class="col-6">
-                                            <p class="correo">all.boom.games@gmail.com</p>
-                                        </div>
-                                        <div class="col-6">
-                                            <img class="simcont" id="telef" src="img/simtel.png" alt="">
-                                        </div>
-                                        <div class="col-6 pb-5">
-                                            <p class="telef">634055256</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                <iframe class="map-square" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.0116497712006!2d2.167125515426719!3d41.41726577926147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2cb8b5ff553%3A0xa6151b26113d8356!2sC.%20Bruselas%2C%2022%2C%2008041%20Barcelona!5e0!3m2!1ses!2ses!4v1642768574489!5m2!1ses!2ses"></iframe>
-                                    </div>
-                            </div>
+                        <div class="col-6">
+                            <img class="img-fluid team" src="img/barcelona.jpg" alt="">
                         </div>
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
     </div>
 </div>
