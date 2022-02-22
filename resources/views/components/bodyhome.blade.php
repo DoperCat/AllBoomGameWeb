@@ -35,16 +35,11 @@
                     <div class="first-square col-center p-4 m-4" id="fondo">
                         <div class="text-square">
                             <div class="isallboom p-3 m-2">
-                                <h3 id="WIAllboom">¿QUÉ ES ALLBOOM?</h3>
-                                <p id="WIAllboomtext1">AllBoom es un videojuego de acción multijugador con diferentes batallas. Podrás escoger 1 VS
-                                <br> 1,3 VS 3 o Survival 10 jugadores todos contra todos.
-                                <br> <br> All Boom Game tiene el propósito de no solo ser estratégico, sinó también divertido, haciendo
-                                <br> así de sus personajes, unas fotografías, que luchan por mantenerse vivas ganando píxeles des-
-                                <br> pués de cada batalla para poder escalar muros (ligas).
-                                <br> <br> El juego se dará dentro de mapas a seleccionar del usuario, y/o aleatoriamente. El jugador con-
-                                <br> tará con habilidades acumulativas en función del muro en el que se encuentre.
-                                <br> <br> Las monedas del videojuego serán los Amokens y las Gemas. Las gemas servirán para comprar
-                                <br> diferentes skins y accesorios gratuitos, en cambio los Amokens será la moneda premium.</p>
+                                <h3 id="WIAllboom">¿QUÉ ES ALLBOOMGAME?</h3>
+                                <p><span style="font-weight: 400;">AllBoomGame es un battle royale gratuito que est&aacute; ambientado en un mundo digital. Las fotos de los usuarios cobran vida y se convierten en los personajes principales del mundo.</span></p>
+                                <p><span style="font-weight: 400;">Se puede jugar de manera individual o por equipos, donde puedes usar habilidades y armas que te encuentras por el escenario para eliminar a tus oponentes.</span></p>
+                                <p></p>
+                                <p><span style="font-weight: 400;">Hay diferentes mapas y ligas que, en funci&oacute;n de las partidas, cada jugador ir&aacute; consiguiendo. En cada partida hay 1 o 2 llaves que, aleatoriamente, las tiene un jugador. El jugador en cuesti&oacute;n que tenga la llave, la podr&aacute; conseguir en el momento que encuentre el portal que estar&aacute; abierto durante un tiempo limitado. En cualquier momento los dem&aacute;s adversarios podr&aacute;n luchar para conseguir la llave de su contrincante. Las llaves conseguidas nos permitir&aacute;n comprar habilidades.</span></p>
                             </div>
                         </div>
                     </div>
@@ -66,67 +61,5 @@
                 </div>
             </div>
         </div>    
-    </div>
-    <div class="row first-square1 p-4 m-4">
-        <div class="col-12">
-            <div class="row text-square1 p-2">
-                <div class="col-12 col-sm-12 col-md-12">
-                    <div class="row p-0 m-0">
-                        <div class="col-xs-6 col-sm-6 col-md-6">
-                            <div class="isallboom1 p-3 m-2" id="whoius">
-                                <h3 id="aboutUs">¿QUIENES SOMOS?</h3>
-                                <p id="aboutUstext">A.I Amoka se formó a principios del 2021 con el objetivo de producir videojuegos de calidad 
-                                para que los consumidores pudieran descargar gratuitamente en sus teléfonos móviles. 
-                                <br> <br> <b>AllBoomGame es nuestro juego debut en estas plataformas. </b>
-                                <br> <br>
-                                Todos los días encontramos nuevas formas de abrir nuevos caminos.
-                                La cultura de A.I.Amoka es apasionada, colaborativa y fomenta el tipo de innovación 
-                                necesaria para continuar desarrollando videojuegos. 
-                                <br> <br>
-                                ¡Cada miembro del equipo es un apasionado de su trabajo!
-                                La búsqueda de la excelencia es lo más importante para nosotros.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <img class="img-fluid team" src="img/empresas-1.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>    
-    </div> 
-    <div class="row">
-        <div class="col-6"></div>
-        <div class="col-6"></div>
-    </div>
-    <div class="row first-square1 p-4 m-4">
-        <div class="col-12">
-            <div class="row text-square1 p-2">
-                <div class="col-xs-12 col-sm-12 col-md-12">
-                    <div class="row">
-                        <div class="col-xs-6 col-sm-6 col-md-6">
-                            <div class="isallboom1 p-3 m-2">
-                                <h3 id="ourstudio">NUESTRO ESTUDIO</h3>
-                                <p id="ourstudiotext">La mayor parte de nuestro desarrollo de juegos se lleva a cabo en la oficina de Barcelona.  
-                                <br> <br> <b>Barcelona, ciudad inteligente</b>
-                                <br> <br>
-                                Todos los días encontramos nuevas formas de abrir nuevos caminos.
-                                Barcelona es mundialmente conocida por su arquitectura, diseño, 
-                                gastronomía, deporte, turismo, investigación científica,
-                                conocimiento y entorno social.
-                                <br> <br>Actualmente hablar de Barcelona es aludir también a un referente en el ámbito tecnológico. 
-                                Se ha convertido en una de las ciudades más atractivas y en una de las grandes marcas de todo el mundo.
-                                <br> Barcelona es poderosa, Barcelona tiene poder! 
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <img class="img-fluid team" src="img/barcelona.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 </div>
