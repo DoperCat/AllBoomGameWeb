@@ -1,5 +1,5 @@
 <div class="container">
-    @if ($object == "aviso-legal") 
+    @if ($object == "aviso-legal")
         <div class="row first-aviso p-4 m-4">
             <div class="col-12" >
                 <div class="row text-aviso">
@@ -7,7 +7,7 @@
                         <div class="aviso">
                             <h3  class="h3">Aviso Legal</h3>
                             <div class="aviso-legal">
-                                <p>&nbsp;<br/> 
+                                <p>&nbsp;<br/>
                                 A.I. Amoka, S.L. se reserva el derecho de modificar cualquier tipo de 
                                 informaci&oacute;n que<br />pudiera aparecer en el sitio web, sin que exista 
                                 obligaci&oacute;n de preavisar o poner en<br />conocimiento de los usuarios dichas obligaciones, 

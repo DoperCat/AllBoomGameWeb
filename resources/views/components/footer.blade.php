@@ -19,7 +19,7 @@
 
 <!-- Linea -->
 
-      <div class="hr"></div> 
+      <div class="hr"></div>
 
 <!----------->
 
@@ -40,7 +40,7 @@
             <div class="col-12 col-sm-3 col-md-3">
                   <a href="/condiciones-servicio">Condiciones del servicio</a>
             </div>
-      </div>            
+      </div>
             <!-- Apartado más pequeño, abajo del todo. -->
       <div class="row">
             <div class="col-9 pt-5">

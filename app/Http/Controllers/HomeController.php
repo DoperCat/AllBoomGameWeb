@@ -6,10 +6,10 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function __invoke()
-    {
-        return view('home');
-    }
+    // public function __invoke()
+    // {
+    //     return view('home');
+    // }
     
     /**
      * Create a new controller instance.
@@ -33,8 +33,6 @@ class HomeController extends Controller
             $object = "No_Existe";
         }
         return view('show', compact('object'));
-        
-}
+    }
 
-    
 }
